@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="flex justify-end items-center px-10 sm:hidden">
+    <ul class="flex  gap-3">
+        <li><a class="hover:underline" href="">Gmail</a> </li>
+        <li><a class="hover:underline" href="">Images</a> </li>
+    </ul>
+    <img src="./src/assets/g-suite.png" alt="">
+    <img class="w-8 h-8 w- rounded-full" src="./src/assets/account.png" alt="">
+  </nav>
+
+  <!-- <nav class="flex justify-between items-center px-5 ">
+    <ul class="flex  gap-3 item-center">
+      <img src="./assets/menu.png" class="w-[10vw] h-[10vw]" alt="">
+        <li><a class="hover:underline" href="">Gmail</a> </li>
+        <li><a class="hover:underline" href="">Images</a> </li>
+    </ul>
+
+    <div class="flex gap-e items-center">
+      <img src="./assets/g-suite.png" alt="">
+    <img class="w-8 h-8 rounded-full" src="./assets/account.png" alt="">
+    </div>
+    
+  </nav> -->
+
+
+  <section class="flex flex-col items-center gap-5 justify-center py-24 ">
+    <img class="w-64 sm:w-48"  src="./src/assets/logo.png" alt="">
+    <div class="w-2/5  h-12  relative flex justify-center  sm:w-full ">
+        <input type="text" class="border cursor-text outline-none w-full px-10  rounded-[1.875rem]  h-12 hover:shadow-md sm:w-5/6 ">
+        <img class="absolute top-[0.75rem] left-[1rem] sm:w-[8vw] sm:h-[8vw] sm:left-[2.5rem]" src="./src/assets/search.png" alt="">
+        <img class="w-[2vw] h-[2vw] absolute top-[0.75rem] right-[1rem] sm:w-[8vw] sm:h-[8vw] sm:right-[2rem]" src="./src/assets/mic.png" alt="">
+    </div>
+    <div class="flex gap-3 sm:hidden">
+        <p class="bg-gray-50 py-3 px-5 rounded-md hover:outline outline-gray-100 cursor-pointer">Google Search</p>
+        <p class="bg-gray-50 py-3 px-5 rounded-md hover:outline outline-gray-100 cursor-pointer">I'm Feeling Lucky</p>
+    </div>
+    <p class="flex gap-2 text-sm  sm:flex-col sm:text-center">Google Offered in: <span class="text-violet-900 gap-3 flex"> <a class="hover:underline" href="">Francais </a> <a class="hover:underline" href=""> Kiswahili</a> <a 
+      class="hover:underline" href="">Kinyarwanda</a></span></p>
+  </section>
+<footer class=" bg-gray-100 flex flex-col gap-5 py-3 fixed bottom-0 w-full mt-[10rem]">
+    <p class="px-10">Rwanda</p>
+    <hr>
+
+    <div class="flex justify-between px-10 sm:flex-wrap">
+    <div class="flex gap-5 sm:flex-wrap">
+        <a class="hover:underline" href="">About</a>
+        <a class="hover:underline" href="">Advertising</a>
+        <a class="hover:underline" href="">Business</a>
+        <a class="hover:underline" href="">How Search works</a>
+    </div>
+
+    <div class="flex gap-5 sm:flex-wrap ">
+        <a class="hover:underline" href="">Privacy</a>
+        <a class="hover:underline" href="">Terms</a>
+        <a class="hover:underline" href="">Settings</a>
+    </div>
+</div>
+  </footer> 
+</body>
+</html>
